@@ -18,7 +18,7 @@ while size>0
     inputArray << gets.chomp.to_i 
     size=size-1
 end
-print "\nEnter the power to which every number in the array should be raise to: "
+print "\nEnter the power: "
 raise = gets.chomp.to_i
 print "\n Input Array is: #{inputArray}"
 print "\n Output Array is: "
