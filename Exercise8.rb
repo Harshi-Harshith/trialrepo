@@ -2,8 +2,8 @@ def power(inputArray,raise)
     outputArray = []
     for i in inputArray
         raised = 1
-        for i in 1..raise
-            raised = raised * i
+        for j in 1..raise
+            raised = raised * raise
         end
         outputArray << raised
     end
