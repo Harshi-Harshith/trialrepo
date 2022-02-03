@@ -3,7 +3,7 @@ def power(inputArray,raise)
     for i in inputArray
         raised = 1
         for j in 1..raise
-            raised = raised * raise
+            raised = raised * i
         end
         outputArray << raised
     end
