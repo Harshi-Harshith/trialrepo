@@ -1,1 +1,1 @@
-puts "third file in this testing branch"
+puts "third file in this testing branch. Now this is working in newbranch3"
